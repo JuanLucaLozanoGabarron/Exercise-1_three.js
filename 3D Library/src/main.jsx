@@ -4,7 +4,8 @@ import "./index.css";
 import Home from "./routes/Home";
 import Car from "./routes/Car";
 import Phone from "./routes/Phone";
-import Dog from "./routes/Dog";
+import Sneaker from "./routes/Sneaker";
+import Hotdog from "./routes/Hotdog";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -21,8 +22,12 @@ const router = createBrowserRouter([
     element: <Phone />,
   },
   {
-    path: "/dog",
-    element: <Dog />,
+    path: "/sneaker",
+    element: <Sneaker />,
+  },
+  {
+    path: "/hotdog",
+    element: <Hotdog />,
   },
 ]);
 
