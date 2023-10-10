@@ -5,7 +5,7 @@ import Car from "./../image/car.png";
 import Phone from "./../image/phone.png";
 import HotDog from "./../image/hotdog.png";
 import Sneaker from "./../image/sneaker.png";
-
+import TShirt from "./../image/tshirt2.png";
 import { Link } from "react-router-dom";
 
 export default function ListBoxes() {
@@ -14,8 +14,8 @@ export default function ListBoxes() {
       <Link to="/sneaker">
         <Box image={Sneaker} name="Nike Dunk low" />
       </Link>
-      <Link to="/sneaker">
-        <Box image={Sneaker} name="Nike Dunk low" />
+      <Link to="/tshirt">
+        <Box image={TShirt} name="T-Shirt" />
       </Link>
       <Link to="/car">
         <Box image={Car} name="Car" />
