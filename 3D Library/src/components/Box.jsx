@@ -1,7 +1,4 @@
-import React, { Suspense } from "react";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
-import Skull from "../../public/Skull";
+import React from "react";
 import "./style/Box.css";
 
 export default function Box(props) {
