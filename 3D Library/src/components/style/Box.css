@@ -1,0 +1,16 @@
+.box {
+  font-family: Montserrat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  border-radius: 20px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  background-color: whitesmoke;
+  height: 260px;
+}
+
+.box img {
+    height: 200px;
+}
