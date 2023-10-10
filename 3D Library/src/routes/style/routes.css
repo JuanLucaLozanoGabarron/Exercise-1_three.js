@@ -1,0 +1,14 @@
+.backButton {
+  z-index: 10;
+  position: fixed;
+  top: 20px;
+  left: 10px;
+  width: 250px;
+  text-align: center;
+  background-color: #c9c7c7;
+}
+
+.backButton p {
+  color: white;
+  font-weight: bold;
+}
