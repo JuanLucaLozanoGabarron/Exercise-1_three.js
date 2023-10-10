@@ -12,5 +12,10 @@
 }
 
 .box img {
-    height: 200px;
+  height: 200px;
+}
+
+.box p {
+  color: black;
+  text-decoration: none;
 }
