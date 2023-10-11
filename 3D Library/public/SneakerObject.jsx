@@ -13,7 +13,7 @@ import { useGLTF } from "@react-three/drei";
 export default function Model(props) {
   const { nodes, materials } = useGLTF("/sneaker.glb");
   return (
-    <group {...props} dispose={null}>
+    <group {...props} dispose={null} scale={1}>
       <group
         position={[-9.51, -48.3, 57.82]}
         rotation={[-Math.PI, Math.PI / 2, 0]}
