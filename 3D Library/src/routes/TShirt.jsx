@@ -15,10 +15,12 @@ export default function TShirt() {
       </Link>
 
       <Canvas
-        camera={{ position: [0, 0, 40], fov: 100 }}
+        camera={{ position: [0, 160, 180], fov: 100 }}
         style={{
           height: "100vh",
-          background: "whitesmoke",
+          backgroundImage: 'url("../src/image/background2.jpeg")',
+          backgroundSize: "cover",
+          backgroundPosition: "center center",
         }}
       >
         <Suspense fallback={null}>
