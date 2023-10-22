@@ -25,10 +25,10 @@ npx gltfjsx model.glb
 ```
 
 ## Sources
-https://dev.to/nourdinedev/how-to-use-threejs-and-react-to-render-a-3d-model-of-your-self-4kkf
-https://www.npmjs.com/package/@react-three/drei
-https://www.framer.com/motion/
-https://sketchfab.com/feed
+- https://dev.to/nourdinedev/how-to-use-threejs-and-react-to-render-a-3d-model-of-your-self-4kkf
+- https://www.npmjs.com/package/@react-three/drei
+- https://www.framer.com/motion/
+- https://sketchfab.com/feed
 
 ## Author
 Juan-Luca Lozano
