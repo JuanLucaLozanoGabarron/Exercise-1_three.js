@@ -6,7 +6,9 @@ Realize3D is on online platform where you can found objects and see an 3D previe
 
 ## Installation
 
-Use the package manager npm to install the uses packages:
+```bash
+npm install
+```
 
 ## Used packages
 
@@ -46,4 +48,6 @@ So I had difficulties in adding, converting and correctly placing my objects.
 
 ## Author
 Juan-Luca Lozano
+
+
 
